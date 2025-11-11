@@ -1,0 +1,35 @@
+:root{
+    --mainColor:#272D38;
+    --colorr:#8EADD5;
+    --mainPadding:187px;
+    --resPadding:300px;
+    --space:90px;
+}
+.mainColor{
+    color: var(--mainColor);
+}
+.mainPadding{
+    padding-left: var(--mainPadding);
+    padding-right: var(--mainPadding);
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.colorr{
+    background-color: var(--colorr);
+}
+.build{
+    height: calc(100vh - 58px);
+}
+.spase{
+    margin-top: var(--space);
+}
+.resPadding{
+    padding-right: var(--resPadding);
+}
+/* .photo{
+    width: 43%;
+} */
+
+
+
