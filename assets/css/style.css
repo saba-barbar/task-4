@@ -1,35 +1,54 @@
 :root{
     --mainColor:#272D38;
     --colorr:#8EADD5;
-    --mainPadding:187px;
+    --mainPadding:164px;
     --resPadding:300px;
     --space:90px;
-}
-.mainColor{
-    color: var(--mainColor);
-}
-.mainPadding{
-    padding-left: var(--mainPadding);
-    padding-right: var(--mainPadding);
 }
 .navbar-collapse{
     flex-grow: 0;
 }
-.colorr{
-    background-color: var(--colorr);
+.mainColor{
+    color: var(--mainColor);
+}
+.space{
+    margin-top: var(--space);
 }
 .build{
     height: calc(100vh - 58px);
 }
-.spase{
-    margin-top: var(--space);
+h1{
+    font-size: 64px;
+    font-weight: 700;
 }
-.resPadding{
-    padding-right: var(--resPadding);
+.colo{
+    color: rgba(102, 112, 133, 1);
 }
-/* .photo{
-    width: 43%;
-} */
-
-
+.colorr{
+    background-color: var(--colorr);
+}
+.logos{
+    background-color: rgba(246, 246, 246, 1);
+}
+.card{
+    border: 0 !important;
+}
+h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+@media (max-width:1200px) {
+    .rotate-90{
+        transform: rotate(90deg);
+    }
+    .vector{
+        width:20%;
+    }
+}
+@media (min-width:992px) {
+    .mainPadding{
+    padding-left: var(--mainPadding) !important;
+    padding-right: var(--mainPadding) !important;
+    }
+}
 
