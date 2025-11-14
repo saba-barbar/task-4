@@ -25,7 +25,7 @@ h1{
     color: rgba(102, 112, 133, 1);
 }
 .colorr{
-    background-color: var(--colorr);
+    background-color: var(--colorr) !important;
 }
 .logos{
     background-color: rgba(246, 246, 246, 1);
@@ -38,7 +38,30 @@ h2{
     font-weight: 700;
 }
 .carousel-indicators{
-    bottom: -80px;
+    bottom: -60px;
+}
+.card-img-top{
+    width: 129px;
+}
+h5{
+    font-size: 18px;
+}
+.carousel-inner p{
+    font-size: 14px
+}
+.carousel-inner .card {
+    width: 345px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid var(--colorr);
+}
+.carousel-indicators .active{
+    background-color: var(--colorr);
+    border-color: var(--colorr) ;
 }
 @media (max-width:1200px) {
     .rotate-90{
@@ -46,6 +69,12 @@ h2{
     }
     .vector{
         width:20%;
+    }
+    .carousel-indicators .active{
+        opacity:0.5 ;
+    }
+    .carousel-indicators .active1{
+        opacity: 1;
     }
 }
 @media (max-width:992px){
@@ -68,8 +97,9 @@ h2{
     padding-left: var(--mainPadding) !important;
     padding-right: var(--mainPadding) !important;
     }
-}
-.shg{
-    display: block;
+    .wid{
+        width: 50%;
+    }
+
 }
 
