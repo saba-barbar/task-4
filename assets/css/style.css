@@ -62,16 +62,14 @@ h2{
     p{
         font-size: 14px;
     }
-    .rrr{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 }
 @media (min-width:992px) {
     .mainPadding{
     padding-left: var(--mainPadding) !important;
     padding-right: var(--mainPadding) !important;
     }
+}
+.shg{
+    display: block;
 }
 
