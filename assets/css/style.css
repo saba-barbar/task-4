@@ -37,12 +37,35 @@ h2{
     font-size: 48px;
     font-weight: 700;
 }
+.carousel-indicators{
+    bottom: -80px;
+}
 @media (max-width:1200px) {
     .rotate-90{
         transform: rotate(90deg);
     }
     .vector{
         width:20%;
+    }
+}
+@media (max-width:992px){
+    .med{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .rrr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (min-width:992px) {
